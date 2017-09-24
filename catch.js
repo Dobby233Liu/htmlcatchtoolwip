@@ -7,8 +7,9 @@ function GetText(){
     //if( request.readyState !== 4 ) return;        
     //if( timeout ) return;        
     //clearTimeout( timer );       
-    if(request.status === 200){
-    document.getElementById("GENC_Output").value = request.responseText;        
+    if(request.status == 200){
+        var WhatsGetOut = request.responseText;
+    document.getElementById("GENC_Output").value = WhatsGetOut;        
     }   
     }   
     }
