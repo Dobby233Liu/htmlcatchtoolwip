@@ -1,6 +1,6 @@
 ﻿function mainc(){
         var request = new XMLHttpRequest();      
-        var URL = String(document.getElementById("url").value);
+        var URL = String(document.getElementById('url').value);
     // credits http://www.cnblogs.com/charling/p/3579704.html
     request.open("GET", URL);
         request.send(null);
