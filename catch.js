@@ -7,7 +7,7 @@
                             var WhatsGetOut = String(request.responseText);
     // orig fn start
     // its showtime
-    document.getElementById("sc").innerHTML = String(WhatsGetOut);
+    document.getElementById('sc').innerHTML = String(WhatsGetOut);
         //    Got an SC (Source)
     // end
     // orig fn end
